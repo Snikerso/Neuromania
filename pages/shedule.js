@@ -1,0 +1,22 @@
+import * as React from "react"
+// import Shedule from "/src/components/organisms/Shedule";
+// import {sheduleData} from '/src/global/constants/data';
+import HeadPage from "/src/components/atoms/heads/HeadPage";
+
+
+export default function PriceListPage() {
+
+  return (
+    <>
+      <HeadPage text={"Shedule"} />
+      {/* <Shedule list={sheduleData}/> */}
+      <p>
+        Shedule will be available soon 
+      </p>
+      <p>
+        This year we will be focusing on areas such as social cognition, relation between language and
+        cognition, brain as an anticipatory organ, action automatization
+      </p>
+    </>
+  )
+}
