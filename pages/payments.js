@@ -1,5 +1,5 @@
 import * as React from "react"
-import HeadPage from "../components/atoms/heads/HeadPage"
+import HeadPage from "/src/components/atoms/heads/HeadPage"
 
 export default function PaymentsPage() {
   return (

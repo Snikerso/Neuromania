@@ -34,7 +34,7 @@ export const GlobalStyles = createGlobalStyle`
         width: 100%;
         min-height:100vh;
         overflow-x:hidden;
-        background-image: url('/src/assets/images/interface/background.png');
+        background-image: url('/assets/images/interface/background.png');
         background-repeat: no-repeat;
         background-size: cover;
     }
