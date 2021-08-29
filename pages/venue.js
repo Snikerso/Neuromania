@@ -6,7 +6,7 @@ export default function RegistrationPage() {
   return (
     <div>
       <HeadPage text={"Venue"}/>
-      <Paragraph text={"It is possible that the conference will be held in hybrid mode. This means that some of the lectures will be held remotely and some stationary."}/>
+      <Paragraph text={"The conference will be held in online mode."}/>
     </div>
   )
 }

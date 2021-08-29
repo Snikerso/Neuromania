@@ -1,6 +1,6 @@
 import * as React from "react";
-import * as Accordion from '/src/components/organisms/WordsCompound/Accordion';
 import styled from "styled-components";
+import * as Accordion from '/src/components/organisms/WordsCompound/Accordion';
 import { importantDatesData } from "/src//global/constants/data";
 import HeadPage from "/src/components/atoms/heads/HeadPage";
 import Paragraph from "/src/components/atoms/paragraphs/Paragraph";

@@ -32,14 +32,14 @@ export const sheduleData = [
     session:1,
     author:
     [
-      {
-        id:0,
-        name:"Irene Pepperberg",
-        bio:"Professor Irene Pepperberg is a Research Associate and lecturer at Harvard University, where she received her degree in Chemical Physics back in 1976. She is a pioneer in investigating animal cognition, particularly in relation to parrots. At the Conference, professor Pepperberg will give a lecture entitled: “Cognitive and Communicative Abilities of Grey Parrots”." ,
-        keynote:true,
-        link:"https://alexfoundation.org/about/dr-irene-pepperberg/",
-        img:"irene.png",
-      }
+      // {
+      //   id:0,
+      //   name:"Irene Pepperberg",
+      //   bio:"Professor Irene Pepperberg is a Research Associate and lecturer at Harvard University, where she received her degree in Chemical Physics back in 1976. She is a pioneer in investigating animal cognition, particularly in relation to parrots. At the Conference, professor Pepperberg will give a lecture entitled: “Cognitive and Communicative Abilities of Grey Parrots”." ,
+      //   keynote:true,
+      //   link:"https://alexfoundation.org/about/dr-irene-pepperberg/",
+      //   img:"irene.png",
+      // }
     ],
     paper:{
       author:0,

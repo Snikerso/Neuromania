@@ -2,6 +2,7 @@ import * as React from "react"
 import {sheduleData} from '/src/global/constants/data';
 import HeadPage from "/src/components/atoms/heads/HeadPage"
 import {GuestList} from "/src/components/organisms/GuestList/GuestList"
+import Paragraph from "/src/components/atoms/paragraphs/Paragraph";
 
 export default function GuestsPage() {
 
@@ -10,7 +11,8 @@ export default function GuestsPage() {
   return (
     <div>
       <HeadPage text={"Guests"} />
-      <GuestList list={allAuthorsKeynotes}/>
+      <Paragraph text={"The first guest will be announced on September 6th"}/>
+      {/* <GuestList list={allAuthorsKeynotes}/> */}
     </div>
   )
 }
