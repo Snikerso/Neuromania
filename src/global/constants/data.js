@@ -2,7 +2,7 @@ export const importantDatesData = [
   {
     id:0,
     title:"Registration start", 
-    description:"06.09.2021",
+    description:"13.09.2021",
   },
   {
     id:1,
