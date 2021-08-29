@@ -35,15 +35,13 @@ const StyledWrapperMainShedule = styled.div`
 
 
 export default function MainTemplate ({children})  {
-  const router = useRouter()
-  const [width, setWidth] = React.useState()
+
 
 
   return (
     <>
-      <GlobalStyles />
         <ThemeProvider theme={theme}>
-            <Header width={width} setWidth={setWidth} location={router.pathname}/>
+            <Header />
             <SheduleProvider>
             <StyledWrapperMainShedule>
                 <Main>

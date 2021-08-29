@@ -1,12 +1,16 @@
 import MainTemplate from "/src/components/templates/MainTemplate"
-
+import {GlobalStyles} from "/src/global/theme/GlobalStyles"
 
 function MyApp({ Component, pageProps }) {
 
   return( 
-  <MainTemplate  {...pageProps}>
-    <Component {...pageProps} />
-  </MainTemplate>)
+    <>
+      <GlobalStyles />
+      <MainTemplate>
+        <Component {...pageProps} />
+      </MainTemplate>
+  </>
+  )
 }
 
 export default MyApp

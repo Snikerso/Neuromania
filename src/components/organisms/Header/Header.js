@@ -4,6 +4,7 @@ import Navigation from "/src/components/molecules/Navigation/Navigation"
 import NavigationBar from "/src/components/molecules/NavigationBar/NavigationBar"
 import LogoName from "/src/components/atoms/interface/Logo/LogoName"
 import Logo from "/src/components/atoms/interface/Logo/Logo"
+import { useRouter } from "next/router"
 
 const StyledHeader = styled.header`
     position: relative;
@@ -30,14 +31,16 @@ const StyledHeader = styled.header`
 `
 
 
-const Header = ({location, width,setWidth}) => {
-
+const Header = () => {
+  const router = useRouter()
+  const [width, setWidth] = React.useState()
+  console.log(router)
   return (
     <StyledHeader>
         <Logo className="logo"/>
         <LogoName text={"NEUROMANIA CONFERENCE 2021"}/>
-        <Navigation location={location} width={width} setWidth={setWidth}/>
-        <NavigationBar location={location} />
+        <Navigation location={router.pathname} width={width} setWidth={setWidth}/>
+        <NavigationBar location={router.pathname} />
     </StyledHeader>
   )
 }
