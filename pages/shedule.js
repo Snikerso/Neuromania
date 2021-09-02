@@ -17,9 +17,9 @@ export default function PriceListPage() {
 
         This year we will be focusing on areas such as: 
           <ul>
-          <li>🧠 relation between language and cognition</li>  
-          <li>🧠 social cognition</li>  
-          <li>🧠 communication as a manifestation of cognition</li>  
+          <li>relation between language and cognition</li>  
+          <li>social cognition</li>  
+          <li>communication as a manifestation of cognition</li>  
         </ul>
       </p>
     </>

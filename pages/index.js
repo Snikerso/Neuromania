@@ -36,7 +36,7 @@ export default function IndexPage () {
       <HeadPage text={"Home"}/>
       <StyledWrapperWelcomeInfo>
         <h3>Welcome!</h3>
-        <Paragraph text={"We would like to invite you to join us in a beautiful city of Toruń, Poland or online for the second international edition of the Neuromania Conference. This year we will be focusing on areas such as social cognition, relation between language and cognition, brain as an anticipatory organ. The event will take place on 20-21st of November 2021 and will be filled with lectures from our keynote speakers, students’ sessions, discussions and workshops."}/>
+        <Paragraph text={"We would like to invite you to join for the second international edition of the Neuromania Conference. This year we will be focusing on areas such as social cognition, relation between language and cognition,  communication as a manifestation of cognition. The event will take place on 20-21st of November 2021 and will be filled with lectures from our keynote speakers, students’ sessions, discussions and workshops."}/>
         <Paragraph text={"Neuromania Conference has been organised by Cognitive Science Student Association at Nicolaus Copernicus University in Toruń, Poland since 2013. The first iterations were held on a national level but since the event’s popularity grew in 2019, we have decided to take it to the international scene. Due to the COVID-19 pandemic in 2020 we were forced to postpone the conference but we’re coming back in the fall of 2021 with fresh energy."} />
         <Paragraph text={"See you there!"}/>
       </StyledWrapperWelcomeInfo>
