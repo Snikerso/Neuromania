@@ -14,8 +14,13 @@ export default function PriceListPage() {
         Shedule will be available soon 
       </p>
       <p>
-        This year we will be focusing on areas such as social cognition, relation between language and
-        cognition, brain as an anticipatory organ, action automatization
+
+        This year we will be focusing on areas such as: 
+          <ul>
+          <li>🧠 relation between language and cognition</li>  
+          <li>🧠 social cognition</li>  
+          <li>🧠 communication as a manifestation of cognition</li>  
+        </ul>
       </p>
     </>
   )

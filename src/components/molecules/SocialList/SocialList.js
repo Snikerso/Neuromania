@@ -21,7 +21,6 @@ export default function SocialList(){
     return(
         <StyledWrapper>
             <IconFacebook />
-            <IconInstagram/>
         </StyledWrapper>
     )
 }

@@ -21,7 +21,7 @@ export default function ContactPage() {
       <StyledWrapperWelcomeInfo>
         <Paragraph text={"The Conference is organised by Student's Cognitive Science Association and Cognitive Science Department at the Faculty of Philosophy and Social Science, Nicolaus Copernicus University, Toruń, Poland."}/>
         <Paragraph text={"If you have any questions contact us: neuromania@umk.pl"}/>
-        <p> You can also find the event on <Link target={"_blank"} href={"https://www.facebook.com/neuromania.conference"} text={"Facebook"}/> and <Link target={"_blank"} href={"https://twitter.com/neuromaniac?lang=en"} text={"Twitter"}/> !</p>
+        <p> You can also find the event on <Link target={"_blank"} href={"https://www.facebook.com/neuromania.conference"} text={"Facebook"}/> !</p>
       </StyledWrapperWelcomeInfo>
     </>
   )

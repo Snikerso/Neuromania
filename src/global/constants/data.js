@@ -6,12 +6,12 @@ export const importantDatesData = [
   },
   {
     id:1,
-    title:"Finish registration for active participant", 
+    title:"Finish registration for active participants", 
     description:"22.10.2021",
   },
   {
     id:3,
-    title:"Finish registration for passive participant", 
+    title:"Finish registration for passive participants", 
     description:"29.10.2021",
   },
   {
