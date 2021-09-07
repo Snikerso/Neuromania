@@ -12,7 +12,7 @@ export default function GuestsPage() {
     <div>
       <HeadPage text={"Guests"} />
       <Paragraph text={"The first guest will be announced on September 6th"}/>
-      {/* <GuestList list={allAuthorsKeynotes}/> */}
+      <GuestList list={allAuthorsKeynotes}/>
     </div>
   )
 }
