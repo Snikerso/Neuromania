@@ -4,7 +4,7 @@ import HeadPage from "/src/components/atoms/heads/HeadPage"
 import Paragraph from "/src/components/atoms/paragraphs/Paragraph"
 import * as Accordion from '/src/components/organisms/WordsCompound/Accordion';
 import { importantDatesData } from "/src//global/constants/data";
-
+import Link from "/src/components/atoms/interface/Link/Link" 
 const StyledWrapper = styled.div`
 display: flex;
 flex-direction: column;
@@ -42,8 +42,8 @@ export default function VenuePage() {
         <li>50 zł/12 € - passive participant</li>
         <li>80 zł/18 € - active participant</li>
       </ul>
-      <Paragraph text={"Registration will be available soon."}/>
-
+      <Paragraph text={`Please fill out the form below to register for the conference `}/>
+<Link target={"_blank"} href={"https://forms.gle/WvqBYPtSnmE5GP5A7"} text={"https://forms.gle/WvqBYPtSnmE5GP5A7"}/>
         <StyledWrapperAccordion>
         <h2>Important Dates</h2>
         <Accordion.Wizzard>
