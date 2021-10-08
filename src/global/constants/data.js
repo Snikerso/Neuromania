@@ -39,6 +39,22 @@ export const sheduleData = [
         keynote:true,
         link:"https://alexfoundation.org/about/dr-irene-pepperberg/",
         img:"irene.png",
+      },
+      {
+        id:1,
+        name:"Don Lee Fred Nilsen",
+        bio:"Don Lee Fred Nilsen is a Professor of Linguistics in the Department of English at the Arizona State University. He completed a PhD in Linguistics at the University of Michigan in 1971. His area of interest include irony, paradox, symbolism, humor and tragi-comedy. In 2014 together with his wife Alleen Nilsen they received the Doug Fletcher Lifetime Achievement Award for their significant contribution to the understanding and application of humor. Professor Nilsen will give a presentation at the conference co-authored by his wife, Alleen Nilsen - Emeritus Professor at the Arizona State University." ,
+        keynote:true,
+        link:"",
+        img:"nielsen.png",
+      },
+      {
+        id:2,
+        name:"Daniel L. Everett",
+        bio:"Daniel L. Everett is a Professor of Cognitive Sciences in the Department of Sociology at Bentley University. He holds a ScD and a Masters of Linguistics both from the Universidade Estadual in Campinas. He has spent nearly eight years living in the Amazonian Jungle and studying local languages, specially language of Amazon Basin’s Pirah people. He is a well-known author of many scientific articles and eleven books. His book, “Don't Sleep There are Snakes: Life and Language in the Amazonian Jungle” was published in eight languages and became a best-seller in English, Japanese, Mandarin, Korean and German." ,
+        keynote:true,
+        link:"",
+        img:"everet.png",
       }
     ],
     paper:{
