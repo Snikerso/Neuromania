@@ -55,6 +55,14 @@ export const sheduleData = [
         keynote:true,
         link:"",
         img:"everet.png",
+      },
+      {
+        id:3,
+        name:"Marianna Bolognesi",
+        bio:"Marianna Bolognesi is senior assistant professor at the University of Bologna, Italy. Her research focuses on abstraction processes, figurative thought and language, the semantic representation of word meaning in mind and multimodal communication. She uses experimental methods that bridge psychological investigation with computational (corpus-driven) modelling. Dr Bolognesi collaborates with various international institutions. Among them, she collaborates with the Creative Multilingualism group at the University of Oxford, where she worked for 2 years (2017-2019) and with the Metaphor Lab Amsterdam, where she worked for two years (2015-2017) with an EU Marie S. Curie fellowship. Here she still coordinates the research area on Metaphor and Multimodality." ,
+        keynote:true,
+        link:"",
+        img:"bolognese.png",
       }
     ],
     paper:{

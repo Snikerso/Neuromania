@@ -43,7 +43,10 @@ export default function VenuePage() {
         <li>80 zł/18 € - active participant</li>
       </ul>
       <Paragraph text={`Please fill out the form below to register for the conference `}/>
-<Link target={"_blank"} href={"https://forms.gle/WvqBYPtSnmE5GP5A7"} text={"https://forms.gle/WvqBYPtSnmE5GP5A7"}/>
+        <Link isImportant target={"_blank"} href={"https://forms.gle/WvqBYPtSnmE5GP5A7"} text={"https://forms.gle/WvqBYPtSnmE5GP5A7"}/>
+        <Link target={"_blank"} href={"/assets/files/Regulations.pdf"} text={"Regulations of the Scientific Conference"}/>
+        <Link target={"_blank"} href={"/assets/files/Rodo_eng.pdf"} text={"Information on the processing of personal data"}/>
+        <Link target={"_blank"} href={"/assets/files/Rodo_pl.pdf"} text={"Informacja o przetwarzaniu danych osobowych"}/>
         <StyledWrapperAccordion>
         <h2>Important Dates</h2>
         <Accordion.Wizzard>

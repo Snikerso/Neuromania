@@ -5,6 +5,7 @@ import Logo from "/src/components/atoms/interface/Logo/Logo";
 import * as Accordion from '/src/components/organisms/WordsCompound/Accordion';
 import { importantDatesData } from "/src/global/constants/data";
 import SignSnikers from "/src/components/atoms/interface/SignSnikers/SignSnikers";
+import Link from "../../atoms/interface/Link/Link";
 
 
 const StyledAside = styled.aside`
@@ -32,6 +33,16 @@ const StyledWrapperAccordion = styled.div`
     margin-top:30px;
 
 `
+const WrapperLinks = styled.div`
+position: absolute;
+bottom:10px;
+display: flex;
+flex-direction: column;
+gap:10px;
+padding: 10px;
+padding-left: 25px;
+
+`
 
 const Aside = () => {
 
@@ -45,7 +56,12 @@ const Aside = () => {
                     {importantDatesData.map(item =><Accordion.Item  key={item.id} item={item}/> )}
                 </Accordion.Wizzard>
           </StyledWrapperAccordion>
-          <SignSnikers/>
+            <WrapperLinks>
+                <Link target={"_blank"} href={"/assets/files/Regulations.pdf"} text={"Regulations of the Scientific Conference"}/>
+                <Link target={"_blank"} href={"/assets/files/Rodo_eng.pdf"} text={"Information on the processing of personal data"}/>
+                <Link target={"_blank"} href={"/assets/files/Rodo_pl.pdf"} text={"Informacja o przetwarzaniu danych osobowych"}/>
+            </WrapperLinks>
+          {/* <SignSnikers/> */}
       </StyledAside>
   )
 }

@@ -30,7 +30,6 @@ const PriceList = ({list}) => {
             <StyledWrapper>
                 <h2>Conference Shedule</h2>
                 {Object.values(grupedByDay).map((listItem, key) => {
-
                     return(
                         <>
                             <StyledWrapperInner>
