@@ -56,12 +56,7 @@ const Aside = () => {
                     {importantDatesData.map(item =><Accordion.Item  key={item.id} item={item}/> )}
                 </Accordion.Wizzard>
           </StyledWrapperAccordion>
-            <WrapperLinks>
-                <Link target={"_blank"} href={"/assets/files/Regulations.pdf"} text={"Regulations of the Scientific Conference"}/>
-                <Link target={"_blank"} href={"/assets/files/Rodo_eng.pdf"} text={"Information on the processing of personal data"}/>
-                <Link target={"_blank"} href={"/assets/files/Rodo_pl.pdf"} text={"Informacja o przetwarzaniu danych osobowych"}/>
-            </WrapperLinks>
-          {/* <SignSnikers/> */}
+          <SignSnikers/>
       </StyledAside>
   )
 }

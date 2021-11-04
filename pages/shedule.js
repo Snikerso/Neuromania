@@ -8,10 +8,10 @@ export default function PriceListPage() {
 
   return (
     <>
-      <HeadPage text={"Shedule"} />
+      <HeadPage text={"Schedule"} />
       {/* <Shedule list={sheduleData}/> */}
       <p>
-        Shedule will be available soon 
+        Schedule will be available soon 
       </p>
       <p>
 

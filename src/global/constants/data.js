@@ -1,22 +1,22 @@
 export const importantDatesData = [
   {
     id:0,
-    title:"Registration start", 
+    title:"Registration starts", 
     description:"13.09.2021",
   },
   {
     id:1,
-    title:"Finish registration for active participants", 
+    title:"Deadline for registration active participants", 
     description:"03.11.2021",
   },
   {
     id:3,
-    title:"Finish registration for passive participants", 
+    title:"Deadline for registration passive participants", 
     description:"10.11.2021",
   },
   {
     id:4,
-    title:"Start conference", 
+    title:"The conference start", 
     description:"20-21.11.2021",
   },
 ]
