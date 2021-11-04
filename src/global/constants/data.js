@@ -7,12 +7,12 @@ export const importantDatesData = [
   {
     id:1,
     title:"Deadline for registration active participants", 
-    description:"03.11.2021",
+    description:"07.11.2021",
   },
   {
     id:3,
     title:"Deadline for registration passive participants", 
-    description:"10.11.2021",
+    description:"12.11.2021",
   },
   {
     id:4,
