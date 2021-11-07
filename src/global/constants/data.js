@@ -63,6 +63,14 @@ export const sheduleData = [
         keynote:true,
         link:"",
         img:"bolognese.png",
+      },
+      {
+        id: 4,
+        name:"Valentina Cuccio",
+        bio:"Valentina Cuccio is an Assistant Professor of Cognitive Neurosciences at the University of Messina, Department of Cognitive Sciences, Psychological, Educational and Cultural Studies. She completed a PhD in Philosophy of Language and Mind at the University of Palermo in 2007. In her work she focuses on the cognitive neuroscience of language. Her most recent studies include language and embodied cognition, embodiment of metaphor, and embodiment of abstract concepts and negation." ,
+        keynote: true,
+        link: "",
+        img:"valentine.png",
       }
     ],
     paper:{
