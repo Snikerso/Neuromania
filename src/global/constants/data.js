@@ -71,7 +71,15 @@ export const sheduleData = [
         keynote: true,
         link: "",
         img:"valentine.png",
-      }
+      },
+      {
+        id: 4,
+        name:"Michael Anthony Arbib",
+        bio:"Michael Anthony Arbib is a computational neuroscientist. He is an Adjunct Professor of Psychology at the University of California in San Diego and a professor emeritus at the University of Southern California. Along with Richard Didday, he developed one of the first winner-take-all neural networks in 1970. He is famous for his proposition of the evolutionary link between mirror neurons, imitation and the evolution of language." ,
+        keynote: true,
+        link: "",
+        img:"michael.png",
+      },
     ],
     paper:{
       author:0,
