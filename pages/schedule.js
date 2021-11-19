@@ -1,16 +1,34 @@
 import * as React from "react"
+import { Image } from "../src/components/atoms/Image";
+import { Wrapper } from "../src/components/atoms/Image/Styles";
+import { WrapperComponent } from "../src/components/atoms/wrappers";
 // import Shedule from "/src/components/organisms/Shedule";
 // import {sheduleData} from '/src/global/constants/data';
 import HeadPage from "/src/components/atoms/heads/HeadPage";
-
+import {mediaMinScreen} from "/src/global/helpers/css"
 
 export default function PriceListPage() {
 
   return (
-    <>
+    <WrapperComponent cssProps={`
+
+    `}>
       <HeadPage text={"Schedule"} />
+      
+      <Image cssProps={`
+        height:420px;
+        width:300px;
+        ${mediaMinScreen({endpoint:"500px", cssProp:`
+          height:690px;
+          width:500px;
+        `})}
+        ${mediaMinScreen({endpoint:"1000px", cssProp:`
+          height: 1100px;
+          width: 750px;
+        `})}
+      `}  image={{src:"/assets/images/program/Neuromania-schedule.png", alt:"Neuromania schedule"}} priority   layout="fill" />
       {/* <Shedule list={sheduleData}/> */}
-      <p>
+      {/* <p>
         Schedule will be available soon 
       </p>
       <p>
@@ -21,7 +39,7 @@ export default function PriceListPage() {
           <li>social cognition</li>  
           <li>communication as a manifestation of cognition</li>  
         </ul>
-      </p>
-    </>
+      </p> */}
+    </WrapperComponent>
   )
 }
