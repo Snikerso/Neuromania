@@ -9,7 +9,7 @@ const init = (location)=>{
   switch(location){
     case "/":
       return `${0 * 120}px`
-    case "/shedule":
+    case "/schedule":
       return `${1 * 120}px`
     case "/guests":
       return `${2 * 120}px`
