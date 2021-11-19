@@ -16,7 +16,7 @@ export const importantDatesData = [
   },
   {
     id:4,
-    title:"The conference start", 
+    title:"The conference starts", 
     description:"20-21.11.2021",
   },
 ]

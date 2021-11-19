@@ -40,6 +40,33 @@ export default function IndexPage () {
         <Paragraph text={"Neuromania Conference has been organised by Cognitive Science Student Association at Nicolaus Copernicus University in Toruń, Poland since 2013. The first iterations were held on a national level but since the event’s popularity grew in 2019, we have decided to take it to the international scene. Due to the COVID-19 pandemic in 2020 we were forced to postpone the conference but we’re coming back in the fall of 2021 with fresh energy."} />
         <Paragraph text={"See you there!"}/>
       </StyledWrapperWelcomeInfo>
+      <Paragraph text={<div style={{marginBottom:"40px"}}>
+        <h4>Organising Committee</h4>
+        <ul style={{marginBottom:"15px"}}>
+          <li>Alicja Terelak,</li>
+          <li>Michalina Zawartowska,,</li>
+          <li>Adrianna Sänger,</li>
+          <li>Julia Chrząstkowska,</li>
+          <li>Kinga Petryka,</li>
+          <li>Klaudia Krupa,</li>
+          <li>Małgorzata Czerwonka,</li>
+          <li>Natalia Pawłowska,</li>
+          <li>Paweł Drojecki,</li>
+          <li>Weronika Sójka,</li>
+          <li>Piotr Bekier,</li>
+          <li>Remigiusz Depta</li>
+        </ul>
+        <h4>Organising Committee</h4>
+        <ul style={{marginBottom:"15px"}}>
+          <li>dr hab. Anita Pacholik-Żuromska, prof. UMK,</li>
+          <li>dr hab. Arkadiusz Gut, prof. UMK,</li>
+          <li>prof. dr hab. Urszula Żegleń,</li>
+          <li>dr Paweł Gładziejewski,</li>
+          <li>dr Przemysław Nowakowski</li>
+        </ul>
+        <h4>Supervisor</h4>
+        <p>dr Tomasz Komendziński</p>
+      </div>}/>
       <iframe width="100%" height="315" src="https://www.youtube.com/embed/A2HjgvTnGwc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     
       <StyledWrapperAccordion>
