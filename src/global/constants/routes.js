@@ -5,5 +5,5 @@ export const navigation = [
     {id:4, text:"Venue" ,to:"/venue",},
     {id:5, text:"Contact" ,to:"/contact",},
     {id:6, text:"Registration" ,to:"/registration",},
-    {id:6, text:"Sponsors" ,to:"/sponsors/",},
+    // {id:6, text:"Sponsors" ,to:"/sponsors/",},
 ]
