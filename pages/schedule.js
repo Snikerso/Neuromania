@@ -1,9 +1,6 @@
 import * as React from "react"
 import { Image } from "../src/components/atoms/Image";
-import { Wrapper } from "../src/components/atoms/Image/Styles";
 import { WrapperComponent } from "../src/components/atoms/wrappers";
-// import Shedule from "/src/components/organisms/Shedule";
-// import {sheduleData} from '/src/global/constants/data';
 import HeadPage from "/src/components/atoms/heads/HeadPage";
 import {mediaMinScreen} from "/src/global/helpers/css"
 
@@ -26,7 +23,9 @@ export default function PriceListPage() {
           height: 1100px;
           width: 750px;
         `})}
-      `}  image={{src:"/assets/images/program/Neuromania-schedule.png", alt:"Neuromania schedule"}} priority   layout="fill" />
+      `}
+      image={{src:"/assets/images/program/Neuromania-schedule.png", alt:"Neuromania schedule"}} priority   layout="fill" />
+      
       {/* <Shedule list={sheduleData}/> */}
       {/* <p>
         Schedule will be available soon 

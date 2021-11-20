@@ -33,8 +33,6 @@ const Navigation = ({location,width}) => {
     navRef.current.style.left = init(location)
   },[router])
 
-  
-
   return (
     <StyledWrapper >
       <NavActiveSlider ref={navRef} width={width}  />
