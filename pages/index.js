@@ -56,7 +56,7 @@ export default function IndexPage () {
           <li>Piotr Bekier,</li>
           <li>Remigiusz Depta</li>
         </ul>
-        <h4>Organising Committee</h4>
+        <h4>Scientific Committee</h4>
         <ul style={{marginBottom:"15px"}}>
           <li>dr hab. Anita Pacholik-Żuromska, prof. UMK,</li>
           <li>dr hab. Arkadiusz Gut, prof. UMK,</li>
