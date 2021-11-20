@@ -19,6 +19,7 @@ export default function RegistrationPage() {
       <WrapperComponent cssProp={`
         display:flex;
         flex-wrap:wrap;
+        width: 100vw;
         gap:120px;
       `}> 
       {sponsors.map( item =>
